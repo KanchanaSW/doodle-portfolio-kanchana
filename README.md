@@ -2,6 +2,8 @@
 
 Personal resume site and live showcase for [doodleui-react](https://www.npmjs.com/package/doodleui-react).
 
+https://doodle-portfolio-2.skw-dev.workers.dev/
+
 ## Stack
 
 - Next.js 14 (App Router) + TypeScript
