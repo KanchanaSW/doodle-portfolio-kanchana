@@ -14,7 +14,7 @@ export function Experience() {
       className="mx-auto max-w-[1400px] scroll-mt-24 px-4 py-20 md:px-8 md:py-28"
     >
       <Reveal>
-        <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
+        <h2 className="doodle-shuffle-type text-3xl font-semibold tracking-tight md:text-4xl">
           Experience
         </h2>
       </Reveal>

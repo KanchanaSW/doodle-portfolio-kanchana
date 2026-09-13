@@ -19,7 +19,12 @@ const config: Config = {
         chalk: "#e6e8ed",
       },
       fontFamily: {
-        sans: ["var(--font-manrope)", "ui-sans-serif", "system-ui", "sans-serif"],
+        sans: ["var(--font-outfit)", "ui-sans-serif", "system-ui", "sans-serif"],
+        hand: [
+          "var(--doodle-ui-font, var(--font-caveat))",
+          "ui-sans-serif",
+          "cursive",
+        ],
         mono: ["var(--font-ibm)", "ui-monospace", "monospace"],
       },
     },

@@ -14,7 +14,7 @@ export function SiteFooter() {
         <p className="text-sm text-mute dark:text-chalk/70">
           {site.name}
         </p>
-        <p className="text-sm text-mute dark:text-chalk/70">
+        <p className="font-hand text-2xl text-ink dark:text-chalk">
           Drawn with doodleui-react
         </p>
       </div>

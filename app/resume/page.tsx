@@ -27,7 +27,7 @@ export default function ResumePage() {
         </Button>
       </div>
 
-      <h1 className="text-4xl font-semibold tracking-tight">{site.name}</h1>
+      <h1 className="doodle-shuffle-type text-4xl font-semibold tracking-tight">{site.name}</h1>
       <p className="mt-2 text-lg text-mute dark:text-chalk/75">{site.role}</p>
       <p className="mt-3 text-sm text-mute dark:text-chalk/70">
         {site.location}
@@ -48,7 +48,7 @@ export default function ResumePage() {
         <p className="mt-3 mb-0 text-sm leading-relaxed">{about.extras}</p>
       </Card>
 
-      <h2 className="mt-10 text-2xl font-semibold tracking-tight">Experience</h2>
+      <h2 className="doodle-shuffle-type mt-10 text-2xl font-semibold tracking-tight">Experience</h2>
       <div className="mt-4 grid gap-6">
         {experience.map((job, index) => (
           <div key={`${job.org}-${job.role}`}>
@@ -72,7 +72,7 @@ export default function ResumePage() {
         ))}
       </div>
 
-      <h2 className="mt-10 text-2xl font-semibold tracking-tight">Projects</h2>
+      <h2 className="doodle-shuffle-type mt-10 text-2xl font-semibold tracking-tight">Projects</h2>
       <ul className="mt-4 grid gap-3 text-sm leading-relaxed">
         {projects.map((project) => (
           <li key={project.title}>
@@ -81,7 +81,7 @@ export default function ResumePage() {
         ))}
       </ul>
 
-      <h2 className="mt-10 text-2xl font-semibold tracking-tight">Skills</h2>
+      <h2 className="doodle-shuffle-type mt-10 text-2xl font-semibold tracking-tight">Skills</h2>
       <p className="mt-3 text-sm leading-relaxed text-mute dark:text-chalk/80">
         {skills.join(", ")}
       </p>

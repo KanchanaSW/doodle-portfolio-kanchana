@@ -56,7 +56,7 @@ export function Hero() {
         <Badge seed={seed} variant="outline" sketchColor={ink}>
           {site.role}
         </Badge>
-        <h1 className="mt-4 max-w-[14ch] text-4xl font-semibold leading-[1.08] tracking-tight md:text-5xl lg:text-6xl">
+        <h1 className="doodle-shuffle-type mt-4 max-w-[14ch] text-4xl font-semibold leading-[1.08] tracking-tight md:text-5xl lg:text-6xl">
           {site.name}
         </h1>
         <p className="mt-5 max-w-[42ch] text-lg leading-relaxed text-mute dark:text-chalk/75">

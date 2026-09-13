@@ -17,13 +17,13 @@ export function SiteHeader() {
       <div className="mx-auto flex h-full max-w-[1400px] items-center justify-between gap-4 px-4 md:px-8">
         <a
           href="/"
-          className="text-lg font-semibold tracking-tight text-ink dark:text-chalk"
+          className="font-hand text-[28px] leading-none text-ink dark:text-chalk"
         >
           {site.shortName}
         </a>
         <nav
           aria-label="Primary"
-          className="hidden items-center gap-6 text-sm font-medium lg:flex"
+          className="hidden items-center gap-6 text-sm font-medium font-sans lg:flex"
         >
           {nav.map((item) => (
             <a

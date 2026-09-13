@@ -69,7 +69,7 @@ export function Contact() {
     >
       <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(240px,320px)] lg:items-start">
         <Reveal>
-          <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
+          <h2 className="doodle-shuffle-type text-3xl font-semibold tracking-tight md:text-4xl">
             Contact
           </h2>
           <p className="mt-3 max-w-[50ch] text-base leading-relaxed text-mute dark:text-chalk/75">

@@ -18,7 +18,7 @@ export function Projects() {
       className="mx-auto max-w-[1400px] scroll-mt-24 px-4 py-20 md:px-8 md:py-28"
     >
       <Reveal>
-        <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
+        <h2 className="doodle-shuffle-type text-3xl font-semibold tracking-tight md:text-4xl">
           Projects
         </h2>
         <p className="mt-3 max-w-[55ch] text-base leading-relaxed text-mute dark:text-chalk/75">

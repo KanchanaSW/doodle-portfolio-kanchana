@@ -7,6 +7,8 @@
   --ink: #1b1e24;
   --accent: #c24a22;
   --mute: #5a606b;
+  --doodle-ui-font: var(--font-patrick-hand);
+  --doodle-ui-font-weight: 400;
 }
 
 html.dark {
@@ -19,12 +21,15 @@ html.dark {
 html {
   background: var(--paper);
   scroll-behavior: smooth;
+  font-family: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
 }
 
-body {
+body,
+body.font-sans {
   min-height: 100dvh;
   color: var(--ink);
   background: var(--paper);
+  font-family: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
 }
 
 .paper-grain {
@@ -45,6 +50,16 @@ html.dark .paper-grain {
 ::selection {
   background: #c24a22;
   color: #f4f1ec;
+}
+
+.font-hand {
+  font-family: var(--doodle-ui-font, var(--font-caveat)), ui-sans-serif, cursive;
+  font-weight: var(--doodle-ui-font-weight, inherit);
+}
+
+.doodle-shuffle-type {
+  font-family: var(--doodle-ui-font, inherit);
+  font-weight: var(--doodle-ui-font-weight, 600);
 }
 
 @media (prefers-reduced-motion: reduce) {
