@@ -85,7 +85,7 @@ export const metadata: Metadata = {
   },
 };
 
-const themeBoot = `(function(){try{var t=localStorage.getItem('doodle-theme');if(t!=='dark'&&t!=='light'){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}if(t==='dark')document.documentElement.classList.add('dark');}catch(e){}})();`;
+const themeBoot = `(function(){try{var t=localStorage.getItem('doodle-theme');if(t==='dark')document.documentElement.classList.add('dark');}catch(e){}})();`;
 
 const personJsonLd = {
   "@context": "https://schema.org",
